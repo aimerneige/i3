@@ -2,7 +2,7 @@
 
 ## About
 
-My own config for i3.
+My own config for i3wm.
 
 ## System
 
