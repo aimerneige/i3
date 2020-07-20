@@ -16,7 +16,7 @@ But it's doesn't matter if you use `arch`, `centos` or other linux.
 
 Just install the i3 and use this config!
 
-## Useage
+## Usage
 
 ```sh
 # First, clone this repositories to your computer
