@@ -14,7 +14,7 @@ I am using Ubuntu 20.04
 
 ```sh
 # First, clone this to your computer
-git clone https://www.github.com/AimerNeige/i3.git
+git clone https://github.com/AimerNeige/i3.git
 
 # Read and edit the config file and the autostart script
 vim config
