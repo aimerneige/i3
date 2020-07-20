@@ -12,6 +12,10 @@ You can get more information about how to create your own config on the [**Docum
 
 I am using `Ubuntu 20.04`
 
+But it's doesn't matter if you use `arch`, `centos` or other linux.
+
+Just install the i3 and use this config!
+
 ## Useage
 
 ```sh
