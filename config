@@ -67,6 +67,8 @@ bindsym $mod+a exec gnome-control-center
 bindsym $mod+Shift+q kill
 # Lock
 bindsym $mod+Ctrl+l exec i3lock-fancy
+# bind print screen
+bindsym Print exec gnome-screenshot
 #########################################################################
 
 
@@ -194,6 +196,3 @@ bar {
 # Set the gaps
 gaps inner 6
 gaps outer 6
-
-# bind print screen
-bindsym Print exec gnome-screenshot
