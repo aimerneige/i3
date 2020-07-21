@@ -8,7 +8,11 @@ My own config for [i3wm](https://i3wm.org/).
 
 You can get more information about how to create your own config on the [**Documentation**](https://i3wm.org/docs/).
 
-## Requriement
+## Preview
+
+![](preview.png)
+
+## Requirement
 
 1. You must have i3 installed
 2. You must have font `Fira Code` installed (or you can also edit the config file and use other font you love
