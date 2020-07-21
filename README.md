@@ -36,7 +36,7 @@ mv i3/ ~/.config
 
 [`Fira Code`](https://github.com/tonsky/FiraCode)
 
-## auto start
+## Auto Start
 
 - nm-applet
 - fcitx
@@ -45,7 +45,7 @@ mv i3/ ~/.config
 - variety
 - Script `i3Autostart.sh`
 
-## keybinding
+## Keybinding
 
 > I use the win key as the Super key
 
