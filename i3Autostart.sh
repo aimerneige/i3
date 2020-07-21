@@ -22,6 +22,6 @@ sleep 2.5;
 i3-msg "workspace 5; exec code"
 sleep 3;
 
-# Setup Workspace 5
+# Setup Workspace 6
 i3-msg "workspace 6; exec alacritty"
 sleep 1;
