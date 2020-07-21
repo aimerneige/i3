@@ -8,13 +8,13 @@ My own config for [i3wm](https://i3wm.org/).
 
 You can get more information about how to create your own config on the [**Documentation**](https://i3wm.org/docs/).
 
-## System
+## Requriement
 
-I am using `Ubuntu 20.04`
+1. You must have i3 installed
+2. You must have font `Fira Code` installed (or you can also edit the config file and use other font you love
+3. You must edit the quick start and change it to your own software.
 
-But it's doesn't matter if you use `arch`, `centos` or other linux.
-
-Just install the i3 and use this config!
+- It's recommend to use this with my [i3-status config](https://www.github.com/AimerNeige/i3status)
 
 ## Usage
 
