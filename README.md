@@ -22,7 +22,7 @@ You can get more information about how to create your own config on the [**Docum
 
 ## Usage
 
-```sh
+```bash
 # First, clone this repositories to your computer
 git clone https://github.com/AimerNeige/i3.git
 
