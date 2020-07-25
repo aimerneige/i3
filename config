@@ -59,7 +59,8 @@ bindsym $mod+z exec firefox
 bindsym $mod+s exec dmenu_run
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+m exec typora
-bindsym $mod+c exec google-chrome
+bindsym $mod+x exec google-chrome
+bindsym $mod+c exec code
 bindsym $mod+n exec nautilus
 bindsym $mod+g exec netease-cloud-music
 bindsym $mod+a exec gnome-control-center
