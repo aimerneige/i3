@@ -76,16 +76,16 @@ mv i3/ ~/.config
 | Key                 | Operation   |
 | ------------------- | ----------- |
 | mod + h             | focus left  |
-| mod + j             | focus down  |
-| mod + k             | focus up    |
+| mod + k             | focus down  |
+| mod + i             | focus up    |
 | mod + l             | focus right |
 | mod + Left          | focus left  |
 | mod + Down          | focus down  |
 | mod + Up            | focus up    |
 | mod + Right         | focus right |
-| mod + Shift + h     | move left   |
-| mod + Shift + j     | move down   |
-| mod + Shift + k     | move up     |
+| mod + Shift + j     | move left   |
+| mod + Shift + k     | move down   |
+| mod + Shift + i     | move up     |
 | mod + Shift + l     | move right  |
 | mod + Shift + Left  | move left   |
 | mod + Shift + Down  | move down   |
@@ -137,9 +137,9 @@ mv i3/ ~/.config
 
 | Key     | Operation in resize mod              |
 | ------- | ------------------------------------ |
-| h       | resize shrink width 10 px or 10 ppt  |
-| j       | resize grow height 10 px or 10 ppt   |
-| k       | resize shrink height 10 px or 10 ppt |
+| j       | resize shrink width 10 px or 10 ppt  |
+| k       | resize grow height 10 px or 10 ppt   |
+| i       | resize shrink height 10 px or 10 ppt |
 | l       | resize grow width 10 px or 10 ppt    |
 | Left    | resize shrink width 10 px or 10 ppt  |
 | Down    | resize grow height 10 px or 10 ppt   |
