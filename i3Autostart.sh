@@ -3,11 +3,11 @@
 # sudo python local.py -d start
 
 # Setup Workspace 1
-i3-msg "workspace 1; exec st"
+i3-msg "workspace 1; exec alacritty"
 sleep 1;
 
 # Setup Workspace 2
-i3-msg "workspace 2; exec firefox"
+i3-msg "workspace 2; exec google-chrome"
 sleep 3;
 
 # Setup Workspace 3
