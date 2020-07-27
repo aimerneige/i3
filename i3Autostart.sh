@@ -23,5 +23,5 @@ i3-msg "workspace 5; exec code"
 sleep 3;
 
 # Setup Workspace 6
-i3-msg "workspace 6; exec alacritty"
+i3-msg "workspace 6; exec virtualbox"
 sleep 1;
