@@ -15,7 +15,7 @@ You can get more information about how to create your own config on the [**Docum
 ## Requirement
 
 1. You must have [i3](https://i3wm.org/) installed.
-2. You must have font [`Fira Code`](https://github.com/tonsky/FiraCode) installed. (or you can also edit the config file and use other font you love)
+2. You must have font [`FiraCode Nerd Font`](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) installed. (or you can also edit the config file and use other font you love)
 3. You must edit the quick start and change it to your own software.
 
 - It's recommend to use this with my [i3-status config](https://www.github.com/AimerNeige/i3status).
@@ -38,7 +38,7 @@ mv i3/ ~/.config
 
 ## Fonts
 
-[`Fira Code`](https://github.com/tonsky/FiraCode)
+[`FiraCode Nerd Font`](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 
 ## Auto Start
 
