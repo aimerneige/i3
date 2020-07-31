@@ -95,32 +95,34 @@ mv i3/ ~/.config
 
 ### workspace control
 
-| Key               | Operation                                |
-| ----------------- | ---------------------------------------- |
-| mod + 1           | workspace number $ws1                    |
-| mod + 2           | workspace number $ws2                    |
-| mod + 3           | workspace number $ws3                    |
-| mod + 4           | workspace number $ws4                    |
-| mod + 5           | workspace number $ws5                    |
-| mod + 6           | workspace number $ws6                    |
-| mod + 7           | workspace number $ws7                    |
-| mod + 8           | workspace number $ws8                    |
-| mod + 9           | workspace number $ws9                    |
-| mod + 0           | workspace number $ws10                   |
-| mod + Shift + 1   | move container to workspace number $ws1  |
-| mod + Shift + 2   | move container to workspace number $ws2  |
-| mod + Shift + 3   | move container to workspace number $ws3  |
-| mod + Shift + 4   | move container to workspace number $ws4  |
-| mod + Shift + 5   | move container to workspace number $ws5  |
-| mod + Shift + 6   | move container to workspace number $ws6  |
-| mod + Shift + 7   | move container to workspace number $ws7  |
-| mod + Shift + 8   | move container to workspace number $ws8  |
-| mod + Shift + 9   | move container to workspace number $ws9  |
-| mod + Shift + 0   | move container to workspace number $ws10 |
-| mod + Ctrl + n    | workspace next                           |
-| mod + Ctrl + p    | workspace prev                           |
-| mod + Tab         | workspace next                           |
-| mod + Shift + Tab | workspace prev                           |
+| Key                | Operation                                |
+| ------------------ | ---------------------------------------- |
+| mod + 1            | workspace number $ws1                    |
+| mod + 2            | workspace number $ws2                    |
+| mod + 3            | workspace number $ws3                    |
+| mod + 4            | workspace number $ws4                    |
+| mod + 5            | workspace number $ws5                    |
+| mod + 6            | workspace number $ws6                    |
+| mod + 7            | workspace number $ws7                    |
+| mod + 8            | workspace number $ws8                    |
+| mod + 9            | workspace number $ws9                    |
+| mod + 0            | workspace number $ws10                   |
+| mod + Shift + 1    | move container to workspace number $ws1  |
+| mod + Shift + 2    | move container to workspace number $ws2  |
+| mod + Shift + 3    | move container to workspace number $ws3  |
+| mod + Shift + 4    | move container to workspace number $ws4  |
+| mod + Shift + 5    | move container to workspace number $ws5  |
+| mod + Shift + 6    | move container to workspace number $ws6  |
+| mod + Shift + 7    | move container to workspace number $ws7  |
+| mod + Shift + 8    | move container to workspace number $ws8  |
+| mod + Shift + 9    | move container to workspace number $ws9  |
+| mod + Shift + 0    | move container to workspace number $ws10 |
+| mod + Ctrl + n     | workspace next                           |
+| mod + Ctrl + p     | workspace prev                           |
+| mod + Tab          | workspace next                           |
+| mod + Shift + Tab  | workspace prev                           |
+| mod + Ctrl + Right | workspace next                           |
+| mod + Ctrl + Left  | workspace prev                           |
 
 ### i3 control
 
