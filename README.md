@@ -51,7 +51,7 @@ mv i3/ ~/.config
 
 ## Keybinding
 
-> I use the win key as the Super key
+> I use the `win key` as the Super key
 
 ### quick start
 
