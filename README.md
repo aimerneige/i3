@@ -47,7 +47,7 @@ mv i3/ ~/.config
 - compton
 - udiskie
 - variety
-- Script `i3Autostart.sh`
+- Script [`i3Autostart.sh`](https://github.com/aimerneige/i3/blob/master/i3Autostart.sh)
 
 ## Keybinding
 
