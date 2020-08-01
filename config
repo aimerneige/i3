@@ -231,6 +231,7 @@ bar {
                 active_workspace $based3 $based2 $base3
                 urgent_workspace $based3 $magenta $base2
         }
+        status_command exec /home/aimerneige/.config/i3status/net-speed.sh
 }
 
 # Set the gaps
