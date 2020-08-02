@@ -10,7 +10,7 @@ You can get more information about how to create your own config on the [**Docum
 
 ## Preview
 
-![](preview.png)
+![Preview.png](https://raw.githubusercontent.com/aimerneige/PicGoData/master/img/i3-preview.png)
 
 ## Requirement
 
