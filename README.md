@@ -24,7 +24,8 @@ You can get more information about how to create your own config on the [**Docum
 
 ```bash
 # First, clone this repositories to your computer
-git clone https://github.com/AimerNeige/i3.git
+# use the depth=1 to clone this without the history
+git clone --depth=1 https://github.com/AimerNeige/i3.git
 
 # Read and edit the config file and the autostart script
 vim config
