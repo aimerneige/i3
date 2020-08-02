@@ -23,18 +23,19 @@ You can get more information about how to create your own config on the [**Docum
 ## Usage
 
 ```bash
-# First, clone this repositories to your computer
-# use the depth=1 to clone this without the history
-git clone --depth=1 https://github.com/AimerNeige/i3.git
+# Delete the old folder
+rm -rf ~/.config/i3
+
+# Clone this repositories to your computer
+# use the depth=1 to clone without the history
+git clone --depth=1 https://github.com/AimerNeige/i3.git ~/.config/i3
 
 # Read and edit the config file and the autostart script
 vim config
 vim i3Autostart.sh
 
-# Then, move this folder to the ~/.config/
-mv i3/ ~/.config
-
-# Finally, restart the i3 with `Super + Shift + R`
+# Restart the i3 with `Super + Shift + R`
+# Enjoy it!
 ```
 
 ## Fonts
