@@ -55,7 +55,7 @@ font pango: FiraCode Nerd Font 8
 # Config about what you wants to run after you starts your system
 exec_always --no-startup-id nm-applet
 exec_always fcitx
-exec_always compton
+exec_always --no-startup-id compton -b
 exec_always udiskie # Auto mount your moveable disk
 exec variety
 exec --no-startup-id ~/.config/i3/i3Autostart.sh
