@@ -64,11 +64,10 @@ vim i3Autostart.sh
 | mod + z         | firefox              |
 | mod + s         | dmenu_run            |
 | mod + d         | i3-dmenu-desktop     |
-| mod + m         | typora               |
+| mod + m         | netease-cloud-music  |
 | mod + x         | chrome               |
 | mod + c         | code                 |
 | mod + n         | nautilus             |
-| mod + g         | netease-cloud-music  |
 | mod + a         | gnome-control-center |
 | mod + Shift + q | kill focused window  |
 | mod + Ctrl + l  | i3lock-fancy         |
