@@ -15,8 +15,7 @@
 #########################################################################
 
 
-## color
-
+## global color var
 set $based3    #002b36
 set $based2    #073642
 set $based1    #586e75
@@ -34,6 +33,8 @@ set $blue      #268bd2
 set $cyan      #2aa198
 set $green     #859900
 
+
+# client color setting
 client.focused            $based3   $based2   $base3   $based3  $based2
 client.focused_inactive   $based3   $based3   $base0   $based3  $based3
 client.unfocused          $based3   $based3   $base0   $based3  $based3
@@ -51,7 +52,6 @@ set $mod Mod4
 font pango: FiraCode Nerd Font 8
 
 
-#########################################################################
 # Config about what you wants to run after you starts your system
 exec_always --no-startup-id nm-applet
 # exec_always fcitx
@@ -59,10 +59,11 @@ exec_always --no-startup-id compton -b
 exec_always udiskie # Auto mount your moveable disk
 exec variety
 exec --no-startup-id ~/.config/i3/i3Autostart.sh
-#########################################################################
+
 
 # auto-lock
 # exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-flancy --nofork
+
 
 # audio ctrl
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +7% && $refresh_i3status
@@ -70,26 +71,27 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-# Backlight ctrl (need root waiting for config)
+
+# Backlight ctrl (need root)
 bindsym XF86KbdBrightnessUp     exec light -A 10
 bindsym XF86KbdBrightnessDown   exec light -U 10
+
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 
-#########################################################################
 # Start a application quickly as you want
 # bindsym $mod+Return exec i3-sensible-terminal
 # bindsym $mod+Return exec cool-retro-term
 bindsym $mod+Return exec alacritty
-bindsym $mod+t exec st
+# bindsym $mod+t exec st
 bindsym $mod+z exec firefox
 bindsym $mod+s exec dmenu_run
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+m exec typora
-# bindsym $mod+x exec google-chrome
-bindsym $mod+x exec chromium
+bindsym $mod+x exec google-chrome
+# bindsym $mod+x exec chromium
 bindsym $mod+c exec code
 bindsym $mod+n exec nautilus
 bindsym $mod+g exec netease-cloud-music
@@ -100,10 +102,8 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Ctrl+l exec i3lock-fancy
 # bind print screen
 bindsym Print exec gnome-screenshot
-#########################################################################
 
 
-#########################################################################
 # Change the focus window
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -122,13 +122,14 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
-#########################################################################
 
 
 # bindsym $mod+semicolon split h # the key H has been use
 # bindsym $mod+v split v
 
+
 bindsym $mod+f fullscreen toggle
+
 
 ## change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking
@@ -148,7 +149,6 @@ bindsym $mod+f fullscreen toggle
 # bindsym $mod+d focus child
 
 
-#########################################################################
 # Config about the workspace
 set $ws1 "1"
 set $ws2 "2"
@@ -187,15 +187,14 @@ bindsym $mod+Tab        workspace next
 bindsym $mod+Shift+Tab  workspace prev
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left  workspace prev
-#########################################################################
 
 
+# i3 reload restart and exit
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 
-#########################################################################
 # Resize the window
 mode "resize" {
         bindsym j resize shrink width 10 px or 10 ppt
@@ -212,18 +211,20 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-
 bindsym $mod+r mode "resize"
-#########################################################################
+
 
 # Disable the titlebar
-new_window pixel 1
-new_float pixel 1
+new_window pixel 0
+new_float pixel 0
+
 
 # Set the status bar
 bar {
         position bottom
+        # position top
         status_command i3status
+        # This font are not installed on default. So you have to download it yourself.
         font pango: FiraCode Nerd Font 12
         colors {
                 statusline $based0
@@ -235,6 +236,7 @@ bar {
         }
         status_command exec /home/aimerneige/.config/i3status/net-speed.sh
 }
+
 
 # Set the gaps
 # gaps inner 6
