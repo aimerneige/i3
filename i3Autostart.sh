@@ -25,3 +25,9 @@
 # Setup Workspace 6
 # i3-msg "workspace 6; exec virtualbox"
 # sleep 1;
+
+
+# Multi monirot auto config
+
+xrandr --output HDMI-1-1 --auto --left-of eDP-1-1 --mode 1920x1080
+xrandr --output eDP-1-1 --auto --right-of HDMI-1-1 --mode 1920x1080
