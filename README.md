@@ -1,5 +1,8 @@
 # i3 config
 
+**This README is old. If you want to use my config, don't use
+it directly!**
+
 ## About
 
 My own config for [i3wm](https://i3wm.org/).
