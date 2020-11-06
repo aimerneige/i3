@@ -29,5 +29,5 @@
 
 # Multi monirot auto config
 
-xrandr --output HDMI-1-1 --auto --left-of eDP-1-1 --mode 2560x1440
-xrandr --output eDP-1-1 --auto --right-of HDMI-1-1 --mode 1920x1080
+# xrandr --output HDMI-1-1 --auto --left-of eDP-1-1 --mode 2560x1440
+# xrandr --output eDP-1-1 --auto --right-of HDMI-1-1 --mode 1920x1080
