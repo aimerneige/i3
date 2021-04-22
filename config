@@ -126,9 +126,8 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 
-# bindsym $mod+semicolon split h # the key H has been use
-# bindsym $mod+v split v
-
+bindsym $mod+h split h
+bindsym $mod+v split v
 
 bindsym $mod+f fullscreen toggle
 
