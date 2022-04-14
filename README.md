@@ -1,3 +1,5 @@
+# **Deperated, no more update**
+
 # i3 config
 
 **This README is old. If you want to use my config, don't use
